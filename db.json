@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "magisk_overlayfs",
+      "name": "Magisk OverlayFS",
+      "description": "Makes /system read-write via OverlayFS. This fork fixes compatibility with newer Magisk releases.",
+      "author": "agreenbhm",
+      "githubOwner": "agreenbhm",
+      "githubRepo": "magic_overlayfs",
+      "assetSuffix": ".zip",
+      "deviceFilter": null
+    },
+    {
+      "id": "zygisk_vector",
+      "name": "Vector",
+      "description": "Modern Xposed-compatible hooking framework (Zygisk module). Required before installing modules from the Vector tab.",
+      "author": "JingMatrix",
+      "githubOwner": "JingMatrix",
+      "githubRepo": "Vector",
+      "assetSuffix": ".zip",
+      "deviceFilter": null
+    },
+    {
+      "id": "quest_pro_display_overclock",
+      "name": "Quest Pro Display Overclock",
+      "description": "Unlocks 100/110/120Hz refresh rates on Meta Quest Pro (stock is 90Hz). Reversible by disabling or removing the module.",
+      "author": "CreoleVR",
+      "githubOwner": "CreoleVR",
+      "githubRepo": "quest-pro-display-overclock",
+      "assetSuffix": ".zip",
+      "deviceFilter": "QUEST_PRO"
+    }
+  ]
+}
