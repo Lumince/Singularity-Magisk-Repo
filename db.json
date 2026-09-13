@@ -30,6 +30,16 @@
       "githubRepo": "quest-pro-display-overclock",
       "assetSuffix": ".zip",
       "deviceFilter": "QUEST_PRO"
+    },
+    {
+      "id": "questpro_independent_gaze",
+      "name": "Quest Pro Independent Eye Gaze",
+      "description": "Patches the eye-tracking model on-device to emit independent per-eye gaze instead of a fixed-depth binocular convergence, and disables social gaze filtering. Requires Magisk OverlayFS.",
+      "author": "Walaryne",
+      "githubOwner": "Walaryne",
+      "githubRepo": "qp-magisk",
+      "assetSuffix": ".zip",
+      "deviceFilter": "QUEST_PRO"
     }
   ]
 }
