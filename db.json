@@ -9,7 +9,7 @@
       "githubOwner": "agreenbhm",
       "githubRepo": "magic_overlayfs",
       "assetSuffix": ".zip",
-      "deviceFilter": null
+      "deviceFilter": "QUEST_2,QUEST_PRO,QUEST_3,QUEST_3S"
     },
     {
       "id": "zygisk_vector",
@@ -40,6 +40,50 @@
       "githubRepo": "qp-magisk",
       "assetSuffix": ".zip",
       "deviceFilter": "QUEST_PRO"
+    },
+    {
+      "id": "vd90hz",
+      "name": "Quest 1 90Hz Override",
+      "description": "True 90Hz on the Quest 1. Requires a 90Hz-patched boot.img to be flashed first. Sleep/wake once after each boot for it to apply.",
+      "author": "Juspertinry",
+      "githubOwner": "Juspertinry",
+      "githubRepo": "q1-modules",
+      "assetSuffix": ".zip",
+      "assetNameContains": "q1_90hz",
+      "deviceFilter": "QUEST_1"
+    },
+    {
+      "id": "q1_audiofx",
+      "name": "Quest 1 System Audio Effects",
+      "description": "Patches the audio effects config so system-wide EQ apps work again. Adds roughly 250ms of audio latency.",
+      "author": "Juspertinry",
+      "githubOwner": "Juspertinry",
+      "githubRepo": "q1-modules",
+      "assetSuffix": ".zip",
+      "assetNameContains": "q1_audiofx",
+      "deviceFilter": "QUEST_1"
+    },
+    {
+      "id": "questptcolor",
+      "name": "Quest 1 Passthrough Colorizer",
+      "description": "Applies a custom tint and strength to system-wide passthrough.",
+      "author": "Juspertinry",
+      "githubOwner": "Juspertinry",
+      "githubRepo": "q1-modules",
+      "assetSuffix": ".zip",
+      "assetNameContains": "q1_ptcolor",
+      "deviceFilter": "QUEST_1"
+    },
+    {
+      "id": "seperationanxiety",
+      "name": "Quest 1 Headless Tracking Patch",
+      "description": "Fixes the tracking loss caused by removing the screen (headless mod).",
+      "author": "Juspertinry",
+      "githubOwner": "Juspertinry",
+      "githubRepo": "q1-modules",
+      "assetSuffix": ".zip",
+      "assetNameContains": "q1_seperationanxiety",
+      "deviceFilter": "QUEST_1"
     }
   ]
 }
