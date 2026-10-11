@@ -12,6 +12,16 @@
       "deviceFilter": "QUEST_2,QUEST_PRO,QUEST_3,QUEST_3S"
     },
     {
+      "id": "qp_telemetryfix",
+      "name": "VD Telemetry Guard",
+      "description": "Zygisk module that stops Virtual Desktop's native telemetry client from being created and blocks its event-creation wrapper, fixing a memory leak when VD telemetry is disabled in Singularity. Requires Magisk 27+ with Zygisk enabled.",
+      "author": "Walaryne",
+      "githubOwner": "Walaryne",
+      "githubRepo": "qp-telemetryfix",
+      "assetSuffix": ".zip",
+      "deviceFilter": "QUEST_2,QUEST_PRO,QUEST_3,QUEST_3S"
+    },
+    {
       "id": "zygisk_vector",
       "name": "Vector",
       "description": "Modern Xposed-compatible hooking framework (Zygisk module). Required before installing modules from the Vector tab.",
@@ -84,6 +94,36 @@
       "assetSuffix": ".zip",
       "assetNameContains": "q1_seperationanxiety",
       "deviceFilter": "QUEST_1"
+    },
+    {
+      "id": "quest2_touch_on_quest3",
+      "name": "Quest 2 Touch on Quest 3",
+      "description": "Lets Quest 2 Touch controllers connect and track motion on a Quest 3, without changing the headset's stock system files.",
+      "author": "LiterallyAxo",
+      "githubOwner": "LiterallyAxo",
+      "githubRepo": "quest2-touch-on-quest3",
+      "assetSuffix": ".zip",
+      "deviceFilter": "QUEST_3"
+    },
+    {
+      "id": "q3_touch_on_quest2",
+      "name": "Quest 3 Touch+ on Quest 2",
+      "description": "Lets Quest 3 Touch+ controllers be paired and motion-tracked on a Quest 2, though tracking can be unreliable.",
+      "author": "Noculus-VR",
+      "githubOwner": "Noculus-VR",
+      "githubRepo": "Q3-touch-on-Quest-2",
+      "assetSuffix": ".zip",
+      "deviceFilter": "QUEST_2"
+    },
+    {
+      "id": "inside_out_body_tracking_fix",
+      "name": "Inside-Out Body Tracking Fix",
+      "description": "Adjusts system properties to fix inside-out body tracking on Quest 3 and Quest 3S.",
+      "author": "Lumince",
+      "githubOwner": "Lumince",
+      "githubRepo": "Inside-Out-Body-Tracking-fix",
+      "assetSuffix": ".zip",
+      "deviceFilter": "QUEST_3,QUEST_3S"
     }
   ]
 }
