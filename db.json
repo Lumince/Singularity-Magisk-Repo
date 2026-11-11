@@ -124,6 +124,16 @@
       "githubRepo": "Inside-Out-Body-Tracking-fix",
       "assetSuffix": ".zip",
       "deviceFilter": "QUEST_3,QUEST_3S"
+    },
+    {
+      "id": "wifi_gate",
+      "name": "Wi-Fi Gate",
+      "description": "Keeps Wi-Fi off and its toggle locked on boots where Magisk isn't loaded, so a tethered or temporary root can't be lost to an OTA downloaded while unrooted. Wi-Fi works normally while rooted. Requires Magisk 26+.",
+      "author": "git-morin",
+      "githubOwner": "git-morin",
+      "githubRepo": "wifi-gate",
+      "assetSuffix": ".zip",
+      "deviceFilter": null
     }
   ]
 }
